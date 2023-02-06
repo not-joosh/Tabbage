@@ -1,0 +1,108 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    background-image: linear-gradient(to bottom, #ffa07a, #fa8fd3);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #ffa07a;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+section#shop {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+}
+section#shop h2 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+.product {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.product img {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    height: 100px;
+    margin-right: 20px;
+}
+.product .name {
+    font-weight: bold;
+    margin: 0;
+}
+.product .price {
+    color: #ff8a2b;
+    font-size: 115%;
+    padding-left: 55%;
+    padding-right: 4%;
+    margin: 0;
+}
+.add-to-cart {
+    background-color: #ffa07a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+aside#cart {
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 20%;
+}
+aside#cart h2 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+aside#cart table {
+    width: 100%;
+}
+aside#cart th,
+aside#cart td {
+    padding: 10px;
+    text-align: left;
+}
+aside#cart td:last-child {
+    text-align: right;
+}
+#total {
+    color: #ffa07a;
+    font-weight: bold;
+}
+#checkout {
+    background-color: #ffa07a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+}
+footer {
+    background-color: #ffa07a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
