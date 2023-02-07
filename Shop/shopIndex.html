@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Moechi | Shop</title>
+        <link rel="stylesheet" href="shopStyle.css">
+    </head>
+    <body>
+        <header>
+        <h1>Moechi</h1>
+        </header>
+        <main>
+        <section id="shop">
+            <h2>Shop</h2>
+            <div class="product"> 
+                <img src="/items/jam2.jpg" alt="Product 1">
+                <p class="name">Product 1</p>
+                <p class="price">
+                    $10.00
+                </p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product"> 
+                <img src="/items/jam1.jpg" alt="Product 1">
+                <p class="name">Product 2</p>
+                <p class="price">
+                    $12.99
+                </p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product"> 
+                <img src="/items/jam3.jpg" alt="Product 1">
+                <p class="name">Product 3</p>
+                <p class="price">
+                    $14.99
+                </p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product"> 
+                <img src="/items/jam4.jpg" alt="Product 1">
+                <p class="name">Product 4</p>
+                <p class="price">
+                    $15.99
+                </p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+        <aside id="cart">
+            <h2>Cart</h2>
+            <table>
+            <thead>
+                <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+            <p>Total: <span id="total"></span></p>
+            <button id="checkout">Checkout</button>
+        </aside>
+        </main>
+        <footer>
+        <p>&copy; 2023 Moechi</p>
+        </footer>
+        <script src="shopScript.js"></script>
+    </body>
+</html>
