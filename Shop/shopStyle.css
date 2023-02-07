@@ -35,12 +35,12 @@ body {
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none; 
-    background-image: linear-gradient(to bottom, #ffa07a, #fa8fd3);
+    background-image: linear-gradient(to right, #FF7300, #FEF253);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 header {
-    background-color: #ffa07a;
+    background: linear-gradient(to right, #FF7300, #FEF253);
     padding: 10px;
     text-align: center;
 }
@@ -85,14 +85,14 @@ section#shop h2 {
     margin: 0;
 }
 .product .price {
-    color: #ff8a2b;
+    color: #FF7300;
     font-size: 115%;
     padding-left: 55%;
     padding-right: 4%;
     margin: 0;
 }
 .add-to-cart {
-    background-color: #ffa07a;
+    background-color:  #FF7300;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -121,20 +121,25 @@ aside#cart td:last-child {
     text-align: right;
 }
 #total {
-    color: #ffa07a;
+    color: #FF7300;
     font-weight: bold;
 }
 #checkout {
-    background-color: #ffa07a;
+    background-color: #FF7300;
     border: none;
     color: #fff;
     cursor: pointer;
     font-weight: bold;
     padding: 10px 20px;
     width: 100%;
+    transition: all 0.2s ease-out;
+}
+#checkout:hover {
+    background-color: #c41757;
+    transform: scale(1.1);
 }
 footer {
-    background-color: #ffa07a;
+    background: linear-gradient(to right, #FF7300, #FEF253);
     color: #fff;
     padding: 10px;
     text-align: center;
