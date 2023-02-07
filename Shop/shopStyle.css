@@ -1,3 +1,35 @@
+.add-to-cart {
+    transition: all 0.3s ease-in-out;
+}
+.add-to-cart:hover {
+    filter: saturation(150%);
+    transform: scale(1.1);
+}
+button.checkout {
+    animation: button-hover 1s ease-in-out;
+}
+.remove-img {
+    width: 20px;
+    height: 20px;
+}
+.remove-img:hover {
+    transform: scale(1.1);
+}
+input[type="text"] {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+@keyframes button-hover {
+    from {
+        transform: saturate(100%);
+    }
+    to {
+        transform: saturate(200%);
+    }
+}
 body {
     -webkit-user-select: none;
     -moz-user-select: none; 
@@ -44,6 +76,7 @@ section#shop h2 {
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none; 
+    width: 100px;
     height: 100px;
     margin-right: 20px;
 }
