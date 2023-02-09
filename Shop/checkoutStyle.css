@@ -79,11 +79,6 @@ input[type="submit"]:hover {
   margin-bottom: 0.1rem;
 }
 
-
-
-
-
-
 .modal {
   display: none; 
   position: fixed; 
@@ -118,4 +113,29 @@ input[type="submit"]:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+
+#back-button-container {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  
+}
+
+#back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#back-button img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+}
+
+#back-button img:hover {
+  transform: scale(1.2);
 }
