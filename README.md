@@ -10,8 +10,11 @@ Work In Progress . . .
 <img width="905" alt="image" src="https://user-images.githubusercontent.com/105687297/217553159-c02b252e-497c-4eb4-b323-d40e96901622.png">
 [Demo Shop | Checkout Output]
 
-### Tabbage Dependencies:
+# Tabbage Dependencies:
 ### npm install @hookform/resolvers
 ### npm install react-hook-form yup
 ### npm install react-router-dom
 ### npm install @tanstack/react-query
+
+###Update
+Front-End Development in Progress... Using Typescript, custom firebase user authentication, and intergrating customer side.
