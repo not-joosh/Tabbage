@@ -16,5 +16,5 @@ Work In Progress . . .
 ### npm install react-router-dom
 ### npm install @tanstack/react-query
 
-###Update
+### Current Update
 Front-End Development in Progress... Using Typescript, custom firebase user authentication, and intergrating customer side.
