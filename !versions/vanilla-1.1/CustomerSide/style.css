@@ -1,0 +1,329 @@
+
+
+.Login-btn{
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    background-color: #484262;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-family: monospace;
+}
+
+.Login-btn:hover{
+    background-color: white;
+    color: #484262;
+}
+
+.Login-btn:active{
+    opacity: 0.7;
+}
+
+.input {
+    
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+body {
+    position: absolute;
+    background-color: #1d1235;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+}
+
+.form1 {
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-icon{
+
+    background-color: #484262;
+    color: transparent;
+    text-decoration: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 1000000px;
+    border-color: #484262;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: absolute;
+    left: 88%;
+    bottom: 15%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.submit{
+
+    background-color: #484262;
+    color: transparent;
+    text-decoration: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 1000000px;
+    border-color: #484262;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: absolute;
+    left: 88%;
+    bottom: 15%;
+    z-index: 1;
+}
+
+.Return-btn{
+    position: fixed;
+    max-height: 200px;
+    max-width: 350px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 60px;
+    left: 0%;
+    top: 70%;
+    transition: 0.15s;
+    z-index: 1;
+}
+
+.Return-btn:hover{
+    
+    transform: scale(1.2);
+}
+
+.LightSquare1{
+
+    position: fixed;
+    top: -16%;
+    left: 15%;
+    width: 750px;
+    height: 400px;
+    z-index: -1;
+    transform: rotate(0deg);
+    transition: 0.15s;
+}
+  
+  .LightSquare1:hover{
+    
+    transform: scale(1.2);
+    transition: 0.15;
+}
+
+.LightSkinSquare1{
+
+  position: fixed;
+  top: 55%;
+  left: 10%;
+  width: 800px;
+  height: 450px;
+  z-index: -1;
+  transform: rotate(30deg);
+  transition: 0.15s;
+}
+
+.LightSkinSquare1:hover{
+  
+  transform: scale(1.2);
+}
+
+.LightSkinSquare2{
+
+  position: fixed;
+  top: 79%;
+  left: 70%;
+  width: 800px;
+  height: 450px;
+  z-index: -1;
+  transform: rotate(50deg);
+  transition: 0.15s;
+}
+
+.LightSkinSquare2:hover{
+  
+  transform: scale(1.2);
+}
+
+.LightSkinSquare3{
+
+  position: fixed;
+  top: 50%;
+  left: 76%;
+  width: 800px;
+  height: 450px;
+  z-index: -1;
+  transform: rotate(30deg);
+  transition: 0.15s;
+}
+
+.LightSkinSquare3:hover{
+  
+  transform: scale(1.2);
+}
+
+.LightWave1{
+
+    position: fixed;
+    top: 53%;
+    left: -47%;
+    z-index: -1;
+    overflow: hidden;
+    transition: 0.15s;
+    transform: rotate(110deg);
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+    max-width: 1925px;
+  
+    animation-name: squareframe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+  
+.DarkWave1{
+  
+    position: fixed;
+    top: 55%;
+    left: -48%;
+    z-index: -2;
+    overflow: hidden;
+    transition: 0.15s;
+    transform: rotate(110deg);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+    max-width: 1925px;
+  
+    animation-name: squareframe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+
+.LightCircle1{
+
+    position: fixed;
+    top: 0%;
+    left: 55%;
+    width: 750px;
+    height: 400px;
+    z-index: -1;
+    transition: 0.15s;
+}
+  
+.LightCircle1:hover{
+    
+    transform: scale(1.2);
+}
+  
+.LightCircle2{
+  
+    position: fixed;
+    top: 15%;
+    left: -15.5%;
+    width: 650px;
+    height: 360px;
+    z-index: -1;
+    transition: 0.15s;
+}
+  
+.LightCircle2:hover{
+    
+    transform: scale(1.2);
+}
+  
+.LightCircle3{
+  
+    position: fixed;
+    top: 82%;
+    left: 55%;
+    width: 650px;
+    height: 360px;
+    z-index: -1;
+    transition: 0.15s;
+}
+  
+.LightCircle3:hover{
+    
+    transform: scale(1.2);
+}  
+
+.LightWave2{
+
+    position: fixed;
+    top: -55%;
+    left: 44.5%;
+    z-index: -1;
+    overflow: hidden;
+    transition: 0.15s;
+    transform: rotate(280deg);
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+    max-width: 1925px;
+  
+    animation-name: squareframe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+  
+.DarkWave2{
+  
+    position: fixed;
+    top: -55.5%;
+    left: 47.5%;
+    z-index: -2;
+    overflow: hidden;
+    transition: 0.15s;
+    transform: rotate(280deg);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+    max-width: 1925px;
+  
+    animation-name: squareframe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-play-state: running;
+}

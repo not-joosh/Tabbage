@@ -1,0 +1,195 @@
+::placeholder {
+
+    color: white;
+}
+
+body{
+    background-color: #1d1235;
+    overflow: hidden;
+}
+
+.create-btn{
+    position: absolute;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: #484262;
+    height: 45px;
+    width: 120px;
+    border: none;
+    border-radius: 19px;
+    color: white;
+    cursor: pointer;
+    margin-top: 60px;
+    transition: background-color 0.15s, color 0.15s;
+    top: 70%;
+    left: 35%;
+}
+
+.create-btn:hover{
+    background-color: white;
+    color: #484262;
+}
+
+.create-btn:active{
+    opacity: 0.7;
+}
+
+.Return-btn{
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-top: 60px;
+    left: 0%;
+    top: 70%;
+    transition: 0.15s;
+    z-index: 1;
+}
+.Return-btn:hover{
+    
+    transform: scale(1.2);
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 10px 10px 10px;
+    text-align: center;
+}
+
+.name-field {
+
+    position: absolute;
+    color: white;
+    background-color: #484262;
+    left: 8%;
+    height: 65.8px;
+    width: 172.28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.username-field {
+
+    position: absolute;
+    color: white;
+    background-color: #484262;
+    left: 55%;
+    height: 65.8px;
+    width: 172.28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.email-field {
+
+    position: absolute;
+    color: white;
+    background-color: #484262;
+    top: 30%;
+    left: 6%;
+    height: 65.8px;
+    width: 400px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.password-field {
+
+    position: absolute;
+    color: white;
+    background-color: #484262;
+    top: 53%;
+    left: 8%;
+    height: 65.8px;
+    width: 172.28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.confirm-field {
+
+    position: absolute;
+    color: white;
+    background-color: #484262;
+    top: 53%;
+    left: 55%;
+    height: 65.8px;
+    width: 172.28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.options-group{
+    
+    position: absolute;
+    top: 70%;
+}
+
+.delivery{
+
+    position: absolute;
+    left: 50%;
+}
+
+.deliverytext{
+
+    position:absolute;
+    top: -5%;
+    left: 90%;
+    width: 144px;
+}
+
+.business{
+
+    position: absolute;
+    top: 42%;
+    left: 50%;
+}
+
+.businesstext{
+
+    position:absolute;
+    top: 25%;
+    left: 90%
+}
+
+.personal{
+
+    position: absolute;
+    left: 1000%;
+    top: 15%;
+}
+
+.personaltext{
+
+    position:absolute;
+    left: 1050%;
+    top: -1%;
+    width: 117px;
+}
+
+*{
+    border-radius: 50px;
+    margin: 0;
+    padding: 10px;
+    font-family: monospace;
+    box-sizing: border-box;
+}  

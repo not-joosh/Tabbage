@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signupstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="form-box">
+            <form>
+                <div class="input-group">
+                        <i class="fa-brands fa-servicestack"></i>
+                        <input class="name-field" type="text" placeholder="Name"> 
+                        <input class="username-field" type="text" placeholder="Username"> 
+                        <input class = "email-field" type= "email" placeholder = "Email">
+                        <input class = "password-field" type= "password" placeholder = "Password">
+                        <input class = "confirm-field" type= "password" placeholder = "Confirm Password">
+                </div>
+
+                <div class = "options-group">
+                        <input class = "delivery" type="radio" name = "type">
+                        <label class = "deliverytext" for="delivery">Tabbage Delivery</label><br>
+                        <input class = "business" type="radio" name = "type">
+                        <label class = "businesstext" for="business">Business/Merchant</label><br>
+                        <input class = "personal" type="radio" name = "type">
+                        <label class = "personaltext" for="personal">Personal Use</label><br>   
+                </div>
+                <input class = "create-btn" type = "submit" value = "Create Account">
+            </form>
+        </div>
+        <a href="/LoginAndSignup/Login.html">
+          <img src = "/images/Return_Button.png" class="Return-btn" />
+      </a>
+  </body> 
+</html>
