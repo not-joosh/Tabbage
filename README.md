@@ -8,7 +8,7 @@
 # Front End Team:
 ##### Ben Cadungog | https://github.com/B3nchi
 ##### Rodjean Gere | https://github.com/Ruujiii
-##### Rhett Surban | N/A
+##### Rhett Surban | https://github.com/isolett
 
 ## Dependencies:
 ##### npm install @hookform/resolvers
