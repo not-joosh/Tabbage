@@ -1,5 +1,8 @@
 # Tabbage
+#### NOTE: '!versions' folder contains vanilla html components for testing front-end user experience.
+
 ##### Parcel Tracking Service Provider. Open Source coming soon...
+
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/105687297/227583285-e484e0fb-bfc4-4d1a-89b7-149638c90214.png">
 
 # Back End Team:
