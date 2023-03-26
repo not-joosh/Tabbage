@@ -13,6 +13,8 @@
 ##### Rodjean Gere | https://github.com/Ruujiii
 ##### Rhett Surban | https://github.com/isolett
 
+### Most Recent Update: Finished User Authentication for both Login and Signup.
+
 ## Dependencies:
 ##### npm install @hookform/resolvers
 ##### npm install react-hook-form yup
