@@ -5,6 +5,9 @@
 
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/105687297/227583285-e484e0fb-bfc4-4d1a-89b7-149638c90214.png">
 
+## UPDATE:
+##### Finished User Authentication for both Login and Signup.
+
 # Back End Team:
 ##### Josh Ratificar | https://github.com/not-joosh
 
@@ -12,8 +15,6 @@
 ##### Ben Cadungog | https://github.com/B3nchi
 ##### Rodjean Gere | https://github.com/Ruujiii
 ##### Rhett Surban | https://github.com/isolett
-
-### Most Recent Update: Finished User Authentication for both Login and Signup.
 
 ## Dependencies:
 ##### npm install @hookform/resolvers
