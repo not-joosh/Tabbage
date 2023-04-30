@@ -17,8 +17,10 @@
     Framer-motion
     Tailwind
     Chakra
+    Vite
 
 ##### Installing Dependencies:
+    npm create vite@latest --
     npm install valtio 
     npm install framer-motion
     npm install -D tailwindcss postcss autoprefixer
