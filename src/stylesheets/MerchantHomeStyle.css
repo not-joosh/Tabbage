@@ -1,0 +1,279 @@
+/*BACKGROUND IMAGE FOR MERCHANT HOME*/
+.mhBG {
+    z-index: -5;
+}
+
+/*REFERENCE HOVERS*/
+.mhPS1:hover, .mhPS2:hover, 
+.mhPS3:hover, .mhPS4:hover{
+    filter: drop-shadow(0 0 2em #ff2929aa);
+    transform: scale(1.1);
+}
+
+.mhWC1, .mhWC2,
+.mhWC3, .mhWS1{
+    filter: drop-shadow(0 0 2em #646cffaa);
+    transform: scale(1.1);
+}
+
+/*MERCHANT HOME STYLES WITH DECORATIONS*/
+.mhActiveBtn:hover,
+.mhGenBtn:hover, .mhHistoryBtn:hover {
+    filter: drop-shadow(0 0 1.3em #5363f7aa);
+    background-color: white;
+    color: #484262;
+}
+.mhBtnContainer {
+    color: white;
+    z-index:2;
+    position: fixed;
+    top: 53%;
+    left: 37%;
+}
+
+.mhActiveBtn {
+    will-change: filter;
+    transition: filter 300ms;
+    border: none;
+    background-color: #484262;
+    border-radius: 19px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.mhGenBtn {
+    will-change: filter;
+    transition: filter 300ms;
+    border: none;
+    background-color: #484262;
+    border-radius: 19px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.mhHistoryBtn {
+    will-change: filter;
+    transition: filter 300ms;
+    border: none;
+    background-color: #484262;
+    border-radius: 19px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/*SQUARE ELEMENT*/
+
+.mhWS1{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: -3%;
+    left: 15%;
+    width: 80px;
+    height: 80px;
+}
+
+/*CIRCLE ELEMENTS*/
+
+.mhWC1{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: 5%;
+    left: 65%;
+    width: 90px;
+    height: 80px;
+}
+.mhWC2{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: 30%;
+    left: -2%;
+    width: 90px;
+    height: 80px;
+}
+.mhWC3{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: 95%;
+    left: 60%;
+    width: 90px;
+    height: 80px;
+}
+
+/*PINK SQUARE ELEMENTS*/
+
+.mhPS1{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    top: 60%;
+    right: -1%; 
+    width: 90px;
+    height: 90px;
+    transform: rotate(40deg);
+}
+
+.mhPS2{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    top: 70%;
+    left: 30%;
+    width: 90px;
+    height: 90px;
+    transform: rotate(45deg);
+}
+
+.mhPS3{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    bottom: -10%;
+    right: 3%;
+    width: 90px;
+    height: 90px;
+    transform: rotate(45deg);
+}
+
+.mhPS4{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    top: 15%;
+    right: 10%;
+    width: 40px;
+    height: 40px;
+    transform: rotate(60deg);
+}
+
+@media screen and (min-width: 1920px){
+    .mhBtnContainer {
+        top: 52%;
+        left: 41.5%;
+    }
+    .mhWS1 {
+        top: -5%;
+        width: 160px;
+        height: 160px;
+    }
+    .mhWC1 {
+        width: 180px;
+        height: 170px;
+    }
+    .mhWC2 {
+        left: -3%;
+        width: 180px;
+        height: 170px;
+    }
+    .mhWC3 {
+        top: 92%;
+        width: 180px;
+        height: 170px;
+    }
+    .mhPS1 {
+        left: 92.5%;
+        width: 180px;
+        height: 180px;
+    }
+    .mhPS2 {
+        width: 180px;
+        height: 180px;
+    }
+    .mhPS3 {
+        top: 93%;
+        width: 180px;
+        height: 180px;
+    }
+    .mhPS4 {
+        width:80px;
+        height:80px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .mhBtnContainer {
+        top: 53%;
+        left: 38.8%;
+    }
+    .mhPS3 {
+        top: 95%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .mhBtnContainer {
+        top: 58%;
+        left: 6.5%;
+    }
+    .mhWS1 {
+        left: 72%;
+        top: 60%;
+    }
+    .mhPS1 {
+        left: 20%;
+        top: 70%;
+    }
+    .mhPS2 {
+        left: 20%;
+        top: -5%;
+    }
+    .mhPS3 {
+        top: 80%;
+        left: 90%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 549px){
+    .mhBtnContainer {
+        top: 58%;
+        left: 16%;
+    }
+    .mhWS1 {
+        left: 72%;
+        top: 60%;
+    }
+    .mhPS1 {
+        left: 20%;
+        top: 70%;
+    }
+    .mhPS2 {
+        left: 20%;
+        top: -5%;
+    }
+    .mhPS3 {
+        top: 80%;
+        left: 90%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px){
+    .mhBtnContainer {
+        top: 58%;
+        left: 18%;
+    }
+    .mhWS1 {
+        left: 72%;
+        top: 60%;
+    }
+    .mhPS1 {
+        left: 20%;
+        top: 70%;
+    }
+    .mhPS2 {
+        left: 20%;
+        top: -5%;
+    }
+    .mhPS3 {
+        top: 80%;
+        left: 90%;
+    }
+}

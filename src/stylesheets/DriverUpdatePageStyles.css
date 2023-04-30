@@ -1,0 +1,217 @@
+.dUpdateWC1, .dUpdateWC2, .dUpdateWS1, 
+.dUpdatePS3{
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.dUpdateDC1:hover, .dUpdatePS1:hover,
+.dUpdatePS2:hover, .dUpdatePS4:hover{
+    filter: drop-shadow(0 0 2em #ff2929aa);
+}
+
+
+
+.dUpdateWC1
+{
+    position: fixed;
+    overflow: hidden;
+    height: 70px;
+    width: 70px;
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+
+.dUpdateWC2{
+    
+    position: fixed;
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+    top: -7%;
+    left: 96%;
+    z-index: 2;
+
+}
+
+.dUpdateDC1{
+
+    position: fixed;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    top: -12%;
+    left: 15%;
+    z-index: 2;
+}
+
+.dUpdateWS1{
+
+    position: fixed;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    left: 97%;
+    top: 70%;
+    z-index: 2;
+}
+
+.dUpdatePS1{
+    position: fixed;
+    overflow: hidden;
+    height: 110px;
+    width: 110px;
+    top: 15%;
+    left: -4%;
+    z-index: 2;
+    transform: rotate(125deg);
+}
+
+.dUpdatePS2{
+    position: fixed;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    top: 3%;
+    left: 80%;
+    z-index: 2;
+    transform: rotate(80deg);
+}
+
+.dUpdatePS3{
+    
+    position: fixed;
+    overflow: hidden;
+    height: 70px;
+    width: 70px;    
+    top: 95%;
+    left: 90%;
+    z-index: 2;
+    transform: rotate(45deg);
+}
+
+.dUpdatePS4{
+
+    position: fixed;
+    overflow: hidden;
+    height: 70px;
+    width: 70px;    
+    top: 30%;
+    left: 97%;
+    z-index: 2;
+    transform: rotate(35deg);
+}
+
+@media screen and (min-width: 1920px){
+    .dUpdateWC1 {
+        height: 140px;
+        width: 140px;
+    }
+    .dUpdateWC2 {
+        height: 160px;
+        width: 160px;
+    }
+    .dUpdateDC1 {
+        top: -13%;
+        height: 250px;
+        width: 300px;
+    }
+    .dUpdateWS1{
+        left: 96%;
+        height: 100px;
+        width: 100px;
+    }
+    .dUpdatePS1{
+        left: -5%;
+        height: 220px;
+        width: 220px;
+    }
+    .dUpdatePS2{
+        height: 100px;
+        width: 100px;
+    }
+    .dUpdatePS3{
+        top: 92%;
+        height: 140px;
+        width: 140px;
+    }
+    .dUpdatePS4{
+        left: 95.5%;
+        height: 140px;
+        width: 140px;
+    }
+}
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .dUpdatePS1 {
+        left: -3.5%;
+    }
+    .dUpdatePS4 {
+        left: 97.4%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .dUpdateWC1 {
+        top: 7%;
+        height: 90px;
+        width: 90px;
+    }
+    .dUpdateWC2 {
+        left: 60%;
+        top: 80%
+    }
+    .dUpdateDC1 {
+        top: -5%;
+        left: 83%;
+        height: 125px;
+        width: 150px;
+    }
+    .dUpdateWS1{
+        left: 94%;
+    }
+    .dUpdatePS1{
+        top: 10%  ;
+        left: 50%;
+        height: 90px;
+        width: 90px;
+    }
+    .dUpdatePS2{
+        display: none;
+    }
+    .dUpdatePS4{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .dUpdateWC1 {
+        top: 7%;
+        height: 90px;
+        width: 90px;
+    }
+    .dUpdateWC2 {
+        left: 60%;
+        top: 80%
+    }
+    .dUpdateDC1 {
+        top: -5%;
+        left: 83%;
+        height: 125px;
+        width: 150px;
+    }
+    .dUpdateWS1{
+        left: 94%;
+    }
+    .dUpdatePS1{
+        top: 10%  ;
+        left: 50%;
+        height: 90px;
+        width: 90px;
+    }
+    .dUpdatePS2{
+        top:50%;
+        left: -4%;
+    }
+    .dUpdatePS4{
+        left: 90%;
+    }
+}

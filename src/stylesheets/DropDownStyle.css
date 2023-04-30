@@ -1,0 +1,56 @@
+.DropDownBox{
+    position: fixed;
+    z-index: 3;
+    background-color: #beb5e4;
+    width: 450px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 500px;
+    top: 8.5%;
+    left: 32%;
+    cursor: pointer;
+}
+
+.DropDownOptions:hover {
+    animation: glow 0.2s ease-in-out infinite alternate;
+    color: #f3f5f9;
+}
+
+
+@keyframes glow {
+  from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #887e83, 0 0 40px #584c52, 0 0 50px #6b6468, 0 0 60px #353434, 0 0 70px #524d4f;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #dad5d7, 0 0 40px #7a7477, 0 0 50px #424242, 0 0 60px #504e4f, 0 0 70px rgb(175, 174, 174), 0 0 80px #cac5c8;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .DropDownBox {
+    left: 38%;
+    top: 6.1%;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+  .DropDownBox {
+    left: 36.5%;
+    top: 7.1%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+  .DropDownBox {
+    left: 0%;
+    top: 9.4%;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 600px){
+  .DropDownBox {
+    left: 10%;
+    top: 9.4%;
+    width: 400px;
+  }
+}

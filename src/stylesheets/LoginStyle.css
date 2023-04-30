@@ -1,0 +1,479 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.liploginbgimg {
+    z-index: -3;
+}
+
+/*HOVERS*/
+
+
+.lipsignupBtn:hover {
+    filter: drop-shadow(0 0 0.8em #646cffaa);
+    background-color: white;
+    color: #484262;
+}
+
+.liploginBtn:hover {
+    filter: drop-shadow(0 0 0.5em #c7bcf8);
+    background-color: white;
+    color: #484262;
+    cursor: pointer;
+}
+
+.lipWS1, .lipWS2, .lipWS3,
+.lipWC1, .lipWC2, .lipWC3 {
+    filter: drop-shadow(0 0 2em #646cffaa);
+    transform: scale(1.1);
+}
+
+.lipPS1:hover, .lipPS2:hover, .lipPS3:hover,
+.lipDS1:hover{
+    filter: drop-shadow(0 0 2em #ff2929aa);
+    transform: scale(1.1);
+}
+
+.liploginFORM{
+    z-index: 2;
+    width: 90%;
+    max-width: 450px;
+    height: 400px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    padding: 10px 10px 10px;
+    text-align: center;
+}
+
+.lipinputEmail{
+
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    height: 97.8px;
+    width: 238.28px;
+    font-size: 33px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.lipinputPassword{
+
+    position: fixed;
+    left: 25%;
+    top: 38%;
+    height: 97.8px;
+    width: 238.28px;
+    font-size: 33px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.liploginBtn {
+
+    will-change: filter;
+    transition: filter 300ms;
+    position: fixed;
+    height: 38px;
+    width: 100px;
+    color: black;
+    border-radius: 19px;
+    top: 67%;
+    left: 28%;
+    z-index: 2;
+}
+
+.lipsignupBtn {
+
+    will-change: filter;
+    transition: filter 300ms;
+    position: fixed;
+    height: 38px;
+    width: 100px;
+    color: white;
+    background: #484262;
+    border-radius: 19px;
+    top: 67%;
+    left: 52%;
+    z-index: 2;
+}
+
+.lipWS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 10%;
+    left: 20%;
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+}
+
+.lipWS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: -9%;
+    left: 50%;
+    width: 85px;
+    height: 85px;
+    z-index: 1;
+}
+
+.lipWS3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 55%;
+    right: 25%;
+    width: 85px;
+    height: 85px;
+    z-index: 1;
+}
+
+.lipWC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: -8%;
+    left: 95%;
+    width: 120px;
+    height: 100px;
+    z-index: 1;
+}
+
+.lipWC2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 65%;
+    left: -5.5%;
+    width: 120px;
+    height: 100px;
+    z-index: 1;
+}
+
+.lipWC3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 94%;
+    left: 60%;
+    width: 120px;
+    height: 100px;
+    z-index: 1;
+}
+
+.lipDS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 40%;
+    right: 10%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.lipPS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 5%;
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    transform: rotate(120deg);
+    z-index: 1;
+}
+
+.lipPS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 70%;
+    left: 25%;
+    width: 110px;
+    height: 110px;
+    transform: rotate(120deg);
+    z-index: 1;
+}
+
+.lipPS3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 93%;
+    left: -3%;
+    width: 110px;
+    height: 110px;
+    transform: rotate(130deg);
+    z-index: 1;
+}
+
+@media screen and (min-width: 1920px) {
+    .lipinputEmail {
+        top: -5%;
+        left: 20%;
+        height: 140px;
+        width: 280px;
+        font-size: 40px;
+    }
+    .lipinputPassword {
+        top: 35%;
+        left: 20%;
+        height: 140px;
+        width: 280px;
+        font-size: 40px;
+    }
+    .liploginBtn {
+        top: 75%;
+    }
+    
+    .lipsignupBtn {
+        top: 75%;
+    }
+    .lipWS1 {
+        width: 120px;
+        height: 120px;
+    }
+    .lipWS2 {
+        top: -10%;
+        width: 150px;
+        height: 150px;
+    }
+    .lipWS3 {
+        width: 150px;
+        height: 150px;
+    }
+    .lipWC1 {
+        width: 240px;
+        height: 200px;
+    }
+    .lipWC2 {
+        left: -8%;
+        width: 240px;
+        height: 200px;
+    }
+    .lipWC3 {
+        top: 92%;
+        width: 240px;
+        height: 200px;
+    }
+    .lipDS1 {
+        width: 100px;
+        height: 110px;
+    }
+    .lipPS1 {
+        width: 220px;
+        height: 220px;
+    }
+    .lipPS2 {
+        width: 220px;
+        height: 220px;
+    }
+    .lipPS3 {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .liploginFORM{
+        width: 90%;
+        height: 400px;
+        top: 55%;
+        left: 45%;
+        padding: 10px 10px 10px;
+    }    
+    .lipinputEmail{
+        top: 10%;
+        left: 25%;
+        height: 80.8px;
+        width: 240.28px;
+    }
+    .lipinputPassword{
+        left: 25%;
+        top: 38%;
+        height: 80.8px;
+        width: 240.28px;
+    }
+    .liploginBtn {
+        height: 28px;
+        width: 90px;
+        top: 67%;
+        left: 28%;
+        
+    }
+    .lipsignupBtn {
+        height: 28px;
+        width: 90px;
+        top: 67%;
+        left: 60%;
+    }
+    .lipWS1{
+        top: 10%;
+        left: 25%;
+        width: 75px;
+        height: 75px;
+    }
+    .lipWS2{
+        top: -4%;
+        left: 50%;
+        width: 75px;
+        height: 75px;
+    }
+    .lipWS3{
+        top: 50%;
+        right: -100%;
+        width: 50px;
+        height: 50px;
+    }
+    .lipWC1{
+        top: -5%;
+        left: 83%;
+        width: 100px;
+        height: 80px;
+    }
+    .lipWC2{
+        top: 65%;
+        left: -10%;
+        width: 100px;
+        height: 80px;
+    }
+    .lipWC3{
+        top: 94%;
+        left: 55%;
+        width: 110px;
+        height: 90px;
+    }
+    .lipPS1{
+        top: 13%;
+        left: 65%;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .lipPS2{
+        top: 75%;
+        left: 25%;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .lipPS3{
+        top: 98%;
+        left: -1%;
+        width: 80px;
+        height: 80px;
+    }
+    .lipDS1{
+        top: 44%;
+        right: 300%;
+        width: 50px;
+        height: 50px;
+    }
+    
+
+}
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .liploginFORM{
+        width: 90%;
+        height: 400px;
+        top: 55%;
+        left: 50%;
+        padding: 10px 10px 10px;
+    }    
+    .lipinputEmail{
+        top: 10%;
+        left: 25%;
+        height: 80.8px;
+        width: 240.28px;
+    }
+    .lipinputPassword{
+        left: 25%;
+        top: 38%;
+        height: 80.8px;
+        width: 240.28px;
+    }
+    .liploginBtn {
+        height: 28px;
+        width: 90px;
+        top: 67%;
+        left: 30%;
+        
+    }
+    .lipsignupBtn {
+        height: 28px;
+        width: 90px;
+        top: 67%;
+        left: 53%;
+    }
+    .lipWS1{
+        top: 10%;
+        left: 25%;
+        width: 75px;
+        height: 75px;
+    }
+    .lipWS2{
+        top: -4%;
+        left: 50%;
+        width: 75px;
+        height: 75px;
+    }
+    .lipWS3{
+        top: 50%;
+        right: -100%;
+        width: 50px;
+        height: 50px;
+    }
+    .lipWC1{
+        top: -5%;
+        left: 83%;
+        width: 100px;
+        height: 80px;
+    }
+    .lipWC2{
+        top: 65%;
+        left: -10%;
+        width: 100px;
+        height: 80px;
+    }
+    .lipWC3{
+        top: 94%;
+        left: 55%;
+        width: 110px;
+        height: 90px;
+    }
+    .lipPS1{
+        top: 13%;
+        left: 65%;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .lipPS2{
+        top: 75%;
+        left: 25%;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .lipPS3{
+        top: 98%;
+        left: -1%;
+        width: 80px;
+        height: 80px;
+    }
+    .lipDS1{
+        top: 44%;
+        right: 300%;
+        width: 50px;
+        height: 50px;
+    }
+    
+
+}

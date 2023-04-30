@@ -1,0 +1,169 @@
+
+.userQueryBG {
+    z-index: -5;
+}
+
+/*SQUARE ELEMENT*/
+
+.uqWS1{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: -3%;
+    left: 15%;
+    width: 80px;
+    height: 80px;
+}
+
+/*CIRCLE ELEMENTS*/
+
+.uqWC1{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: 5%;
+    left: 65%;
+    width: 90px;
+    height: 80px;
+}
+.uqWC2{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: 30%;
+    left: -2%;
+    width: 90px;
+    height: 80px;
+}
+.uqWC3{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    will-change: filter;
+    transition: filter 300ms;
+    top: 95%;
+    left: 60%;
+    width: 90px;
+    height: 80px;
+}
+
+/*PINK SQUARE ELEMENTS*/
+
+.uqPS1{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    top: 60%;
+    right: -1%; 
+    width: 90px;
+    height: 90px;
+    transform: rotate(40deg);
+}
+
+.uqPS2{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    top: 70%;
+    left: 30%;
+    width: 90px;
+    height: 90px;
+    transform: rotate(45deg);
+}
+
+.uqPS3{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    bottom: -10%;
+    right: 3%;
+    width: 90px;
+    height: 90px;
+    transform: rotate(45deg);
+}
+
+.uqPS4{
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
+    top: 15%;
+    right: 10%;
+    width: 40px;
+    height: 40px;
+    transform: rotate(60deg);
+}
+
+/*REFERENCE HOVERS*/
+.uqPS1:hover, .uqPS2:hover, 
+.uqPS3:hover, .uqPS4:hover{
+    filter: drop-shadow(0 0 2em #ff2929aa);
+    transform: scale(1.1);
+}
+
+.uqWC1, .uqWC2,
+.uqWC3, .uqWS1{
+    filter: drop-shadow(0 0 2em #646cffaa);
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1920px) {
+    .userQuery-wrapper {
+        left: 26%;
+    }
+    .uqWS1 {
+        width: 120px;
+        height: 120px;
+    }
+    .uqWC1 {
+        width: 130px;
+        height: 120px;
+    }
+    .uqWC2 {
+        width: 130px;
+        height: 120px;
+    }
+    .uqWC3 {
+        width: 130px;
+        height: 120px;
+    }
+    .uqPS1{
+        width: 150px;
+        height: 150px;
+    }
+    .uqPS2{
+        width: 150px;
+        height: 150px;
+    }
+    .uqPS3{
+        width: 150px;
+        height: 150px;
+    }
+    .uqPS4{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .userQuery-wrapper {
+        left: 9%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .userQuery-wrapper {
+        left: -35.1%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .userQuery-wrapper {
+        left: -31%;
+    }
+}

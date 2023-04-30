@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.modalprompt {
+    color: #daccec;
+}
+.modaloverlay:hover {
+    cursor: pointer;
+}
+.modal {
+    font-family: monospace;
+    font-size: larger;
+    z-index: 100;
+    background-color: rgba(29, 18, 53, 0.9);
+    transition: 0.15s;
+}
+.modalclosebtn {
+    border-radius: 50%;
+}
+.modalclosebtn:hover {
+    background-color: #484262;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.modalerror {
+    border-radius: 50px;
+    background: linear-gradient(to left, rgb(72, 66, 98, 0.5), rgb(172, 170, 231, 0.5));
+    width: 27%;
+    left: 37.5%;
+}

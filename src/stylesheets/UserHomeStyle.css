@@ -1,0 +1,458 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.uhBG {
+    z-index: -3;
+}
+.uhTrckPBtn:hover {
+    filter: drop-shadow(0 0 0.5em #ccffffaa);
+}
+.uhLoginBtn:hover {
+    filter: drop-shadow(0 0 1.3em #5363f7aa);
+    background-color: white;
+    color: #484262;
+}
+.uhTrckPBtn {
+    will-change: filter;
+    transition: filter 300ms;
+    border-radius: 50px;
+    top: 41%;
+    left: 41%;
+}
+.uhLoginBtn {
+    will-change: filter;
+    transition: filter 300ms;
+    font-weight: bolder;
+    border-radius: 50px;
+    background: #484262;
+    top: 54%;
+    left: 45.8%;
+    z-index: 2;
+}
+
+.uhWS1, .uhWS2, .uhDS1,
+.uhPS1, .uhPS2, .uhPS3,
+.uhWC1, .uhWC2, .uhWC3, 
+.uhDC1{
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.uhDS2:hover, .uhWC1:hover,
+.uhWC3:hover, .uhPS2:hover, 
+.uhDC2:hover {
+    filter: drop-shadow(0 0 2em #ff2929aa);
+}
+
+.uhWS1{
+    position: fixed;
+    overflow: hidden;
+    top: 48%;
+    left: -5%;
+    width: 175px;
+    height: 175px;
+    z-index: -1;
+    transform: rotate(320deg);
+}
+
+.uhWS2{
+    position: fixed;
+    overflow: hidden;
+    top: -7%;
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    transform: rotate(100deg);
+}
+
+.uhDS1{
+    position: fixed;
+    overflow: hidden;
+    top: 25%;
+    left: 87%;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    transform: rotate(360deg);
+}
+
+.uhPS1{
+    position: fixed;
+    overflow: hidden;
+    top: 80%;   
+    left: -1%;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    transform: rotate(300deg);
+}
+
+.uhPS2{
+    position: fixed;
+    overflow: hidden;
+    top: 80%;   
+    left: 7%;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    transform: rotate(300deg);
+}
+
+.uhPS3{
+    position: fixed;
+    overflow: hidden;
+    top: 5%;
+    left: 83%;
+    width: 70px;
+    height: 70px;
+    z-index: -1;
+    transform: rotate(320deg);
+}
+
+.uhWC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 0%;
+    left: 91%;
+    width: 275px;
+    height: 245px;
+}
+
+.uhWC2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 87%;
+    left: 10%;
+    width: 200px;
+    height: 180px;
+}
+
+.uhWC3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 65%;
+    left: 7%;
+    width: 100px;
+    height: 90px;
+}
+
+.uhDC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: -8%;
+    left: 86%;
+    width: 112px;
+    height: 95px;
+}
+
+.uhDC2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 91%;
+    left: 0%;
+    width: 112px;
+    height: 95px;
+}
+
+@media screen and (min-width: 1920px) {
+    .uhTrckPBtn {
+        left: 43%;
+        top: 45%;
+    }
+    .uhLoginBtn {
+        left: 46.3%;
+        top: 55%;
+    }
+    .uhWS1 {
+        width: 200px;
+        height: 200px;
+        left: -4%;
+    }
+    .uhWS2 {
+        width: 140px;
+        height: 140px;
+        top: -8%;
+    }
+    .uhPS1 {
+        width: 85px;
+        height: 85px;
+    }
+    .uhPS2 {
+        width: 85px;
+        height: 85px;
+    }
+    .uhPS3 {
+        width: 100px;
+        height: 100px;
+    }
+    .uhDS1 {
+        width: 85px;
+        height: 90px;
+    }
+    .uhWC1 {
+        left: 92%;
+        width: 320px;
+        height: 290px;
+    }
+    .uhWC2 {
+        width: 240px;
+        height: 220px;
+    }
+    .uhWC3 {
+        width: 130px;
+        height: 120px;
+    }
+    .uhDC1 {
+        top: -6.8%;
+        width: 120px;
+        height: 100px;
+    }
+    .uhDC2 {
+        top: 92.3%;
+        width: 120px;
+        height: 100px;
+    }
+}
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .uhTrckPBtn {
+        left: 42.5%;
+        top: 42%;
+    }
+    .uhLoginBtn {
+        left: 46.5%;
+        top: 53%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .uhTrckPBtn{
+        left: 25%;
+    }
+    .uhLoginBtn{
+        top: 53%;
+        left: 40%;
+    }
+    .uhWS1{
+        top: 48%;
+        left: -5%;
+        width: 100px;
+        height: 100px
+    }
+    .uhWS2{
+        top: -2%;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhDS1{
+        top: 15%;
+        left: 65%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS1{
+        top: 80%;   
+        left: -1%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS2{
+        top: 65%;   
+        left: 10%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS3{
+        top: 5%;
+        left: 74%;
+        width: 60px;
+        height: 60px;
+    }
+    .uhWC1{
+        top: 10%;
+        left: 87%;
+        width: 100px;
+        height: 105px; 
+    }
+    .uhWC2{
+        top: 93%;
+        left: 40%;
+        width: 100px;
+        height: 90px;
+    }
+    .uhWC3{
+        top: 75%;
+        left: 28%;
+        width: 100px;
+        height: 90px;
+    }
+    .uhDC1{
+        top: -5%;
+        left: 75%;
+        width: 112px;
+        height: 95px;
+    }
+    .uhDC2{
+        top: 94%;
+        left: 0%;
+        width: 112px;
+        height: 95px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 549px){
+    .uhTrckPBtn{
+        left: 28%;
+    }
+    .uhLoginBtn{
+        top: 53%;
+        left: 40%;
+    }
+    .uhWS1{
+        top: 48%;
+        left: -5%;
+        width: 100px;
+        height: 100px
+    }
+    .uhWS2{
+        top: -2%;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhDS1{
+        top: 15%;
+        left: 65%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS1{
+        top: 80%;   
+        left: -1%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS2{
+        top: 65%;   
+        left: 10%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS3{
+        top: 5%;
+        left: 74%;
+        width: 60px;
+        height: 60px;
+    }
+    .uhWC1{
+        top: 10%;
+        left: 87%;
+        width: 100px;
+        height: 105px; 
+    }
+    .uhWC2{
+        top: 93%;
+        left: 40%;
+        width: 100px;
+        height: 90px;
+    }
+    .uhWC3{
+        top: 75%;
+        left: 28%;
+        width: 100px;
+        height: 90px;
+    }
+    .uhDC1{
+        top: -5%;
+        left: 75%;
+        width: 112px;
+        height: 95px;
+    }
+    .uhDC2{
+        top: 94%;
+        left: 0%;
+        width: 112px;
+        height: 95px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px){
+    .uhTrckPBtn{
+        left: 30%;
+    }
+    .uhLoginBtn{
+        top: 53%;
+        left: 41%;
+    }
+    .uhWS1{
+        top: 48%;
+        left: -5%;
+        width: 100px;
+        height: 100px
+    }
+    .uhWS2{
+        top: -2%;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhDS1{
+        top: 15%;
+        left: 65%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS1{
+        top: 80%;   
+        left: -1%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS2{
+        top: 65%;   
+        left: 10%;
+        width: 50px;
+        height: 50px;
+    }
+    .uhPS3{
+        top: 5%;
+        left: 74%;
+        width: 60px;
+        height: 60px;
+    }
+    .uhWC1{
+        top: 10%;
+        left: 87%;
+        width: 100px;
+        height: 105px; 
+    }
+    .uhWC2{
+        top: 93%;
+        left: 40%;
+        width: 100px;
+        height: 90px;
+    }
+    .uhWC3{
+        top: 75%;
+        left: 28%;
+        width: 100px;
+        height: 90px;
+    }
+    .uhDC1{
+        top: -5%;
+        left: 75%;
+        width: 112px;
+        height: 95px;
+    }
+    .uhDC2{
+        top: 94%;
+        left: 0%;
+        width: 112px;
+        height: 95px;
+    }
+}

@@ -1,0 +1,412 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.merchantPagebg {
+    z-index: -2;
+}
+
+.genFormWrapper * {
+
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+} 
+
+.genFormBox {
+    
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    width: 650px;
+    height: 400px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    padding: 10px 10px 10px;
+    z-index: 2;
+}
+/*HOVER EFFECTS */
+
+.genFormWrapper ::placeholder{
+    color: black;
+    background-color: white;
+    font-weight: normal;
+}
+
+.genFormBtn:hover{
+    filter: drop-shadow(0 0 2em #537bffaa);
+    background-color: white;
+    color: #484262;
+    cursor: pointer;
+    opacity: 99999999;
+}
+
+.mgWC1, .mgWC2, .mgWS1, 
+.mgPS2{
+    filter: drop-shadow(0 0 2em #646cffaa);
+    transform: scale(1.1);
+}
+
+.mgDC1:hover, .mgDS1:hover, .mgDS2:hover,
+.mgPS1:hover, .mgPS3:hover{
+    filter: drop-shadow(0 0 2em #ff2929aa);
+    transform: scale(1.1);
+}
+
+
+/*RECEPIENT BOX*/
+
+.genFormRecepientBox{
+
+    position: fixed;
+    text-align: center;
+    z-index: 3;
+}
+
+.genFormRecipientfield{
+
+    position: fixed;
+    width: 230px;
+    height: 60px;
+    left: 8%;
+    border-radius: 10px;
+    border: 5px solid #484262;
+}
+
+/*ADDRESS BOX*/
+
+.genFormAddressBox{
+    
+    position: fixed;
+    left: 52%;
+    top: 7%;
+    text-align: center;
+} 
+
+.genFormAddressfield{
+
+    position: fixed;
+    width: 230px;
+    height: 60px;
+    left: 55%;
+    border-radius: 10px;
+    border: 5px solid #484262;
+}
+
+/*TRACKING BOX*/
+
+.genTrackNumContainer{
+    position: fixed;
+    text-align: center;
+    z-index: 3;
+}
+
+.trackingNumberTitle {
+
+    position: fixed;
+    left: 35%;
+    top: 45%;
+    text-align: center;
+}
+
+.gennedTrackingNumber {
+
+    position: fixed;
+    left: 7%;
+    top: 55%;
+    width: 550px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #484262;
+    border-radius: 50px;
+    border: 5px solid #484262;
+}
+/*GENERATE BUTTON*/
+
+.genFormBtn{
+
+    position: fixed;
+    background-color: #484262;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 40px;
+    left: 38%;
+    top: 75%;
+}
+
+/*Circle Elements*/
+
+.mgWC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 6%;
+    left: 96%;
+    width: 100px;
+    height: 90px;
+    z-index: 1;
+}
+
+.mgWC2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 95%;
+    left: 80%;
+    width: 100px;
+    height: 90px;
+    z-index: 1;
+}
+
+.mgDC1{
+    position: fixed;
+    overflow: hidden;
+    top: 73%;
+    left: 7%;
+    width: 60px;
+    height: 50px;
+    z-index: 1;
+}
+
+/*Square Elements*/
+
+.mgWS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 30%;
+    left: 10%;
+    width: 75px;
+    height: 75px;
+    transform: rotate(100deg);
+    z-index: 1;
+}
+
+.mgPS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: -10%;
+    left: 90%;
+    width: 110px;
+    height: 110px;
+    transform: rotate(140deg);
+    z-index: 1;
+}
+
+.mgPS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 60%;
+    left: 85%;
+    width: 110px;
+    height: 110px;
+    transform: rotate(120deg);
+    z-index: 1;
+}
+
+.mgPS3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    left: -6%;
+    width: 110px;
+    height: 110px;
+    transform: rotate(140deg);
+    z-index: 1;
+}
+
+.mgDS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 5%;
+    left: 17%;
+    width: 80px;
+    height: 90px;
+    z-index: 1;
+    transform: rotate(120deg);  
+}
+
+.mgDS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 0%;
+    left: 80%;
+    width: 40px;
+    height: 50px;
+    z-index: 1;
+    transform: rotate(240deg);  
+}
+
+@media screen and (min-width: 1920px){
+    .mgWC1 {
+        left: 95%;
+        width: 200px;
+        height: 180px;
+    }
+    .mgWC2 {
+        top: 92%;
+        width: 200px;
+        height: 180px;
+    }
+    .mgDC1 {
+        top: 72%;
+        width: 120px;
+        height: 100px;
+    }
+    .mgWS1 {
+        width: 150px;
+        height: 150px;
+    }
+    .mgPS1 {
+        top: -15%;
+        width: 220px;
+        height: 220px;
+    }
+    .mgPS2 {
+        width: 220px;
+        height: 220px;
+    }
+    .mgPS3 {
+        left: -8%;
+        width: 220px;
+        height: 220px;
+    }
+    .mgDS1 {
+        width: 160px;
+        height: 180px;
+    }
+    .mgDS2 {
+        width: 80px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .mgPS3 {
+        left: -5%
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .genFormBox {
+        width: 380px;
+    }
+    .genFormRecipientfield{
+        width: 150px;
+    }
+    .genFormAddressBox{
+        left: 50%;
+    }
+    .genFormAddressfield{
+        width: 150px;
+        top: 20.9%;
+        left: 52%;
+    }
+    .genTrackNumContainer{
+        width: 150px;
+    }
+    .trackingNumberTitle {
+        top: 40%;
+        left: 30%;
+    }
+    .gennedTrackingNumber {
+        top: 50%;
+        width: 325px;     
+    }    
+    .genFormBtn{
+        left: 30%;
+    }
+    .mgWC1 {
+        left: 60%;
+        top: 10%;
+        width: 100px;
+        height: 90px;
+    }
+    .mgWC2 {
+        left: 85%;
+        top: 93%;
+        width: 100px;
+        height: 90px;
+    }
+    .mgWS1 {
+        top: 75%;
+        left: 90%;
+    }
+    .mgPS1 {
+        top: 5%;
+    }
+    .mgPS2 {
+        top: 80%;
+        left: 30%;
+    }
+    .mgPS3 {
+        top: 20%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .genFormBox {
+        width: 470px;
+    }
+    .genFormRecipientfield{
+        width: 180px;
+    }
+    .genFormAddressBox{
+        left: 50%;
+    }
+    .genFormAddressfield{
+        width: 180px;
+        top: 20.9%;
+        left: 52%;
+    }
+    .genTrackNumContainer{
+        width: 150px;
+    }
+    .trackingNumberTitle {
+        top: 40%;
+        left: 30%;
+    }
+    .gennedTrackingNumber {
+        top: 50%;
+        width: 400px;     
+    }    
+    .genFormBtn{
+        left: 33%;
+    }
+    .mgWC1 {
+        left: 60%;
+        top: 10%;
+        width: 100px;
+        height: 90px;
+    }
+    .mgWC2 {
+        left: 85%;
+        top: 93%;
+        width: 100px;
+        height: 90px;
+    }
+    .mgWS1 {
+        top: 75%;
+        left: 90%;
+    }
+    .mgPS1 {
+        top: 5%;
+    }
+    .mgPS2 {
+        top: 80%;
+        left: 30%;
+    }
+    .mgPS3 {
+        top: 20%;
+    }
+}

@@ -1,0 +1,57 @@
+.searchBarContainer {
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    border-radius: 100px;
+    top: 2%;
+    left: 32%;
+}
+
+.searchBarBin {
+    z-index: 5;
+    display: block;
+    text-align: center;
+    width: 450px;
+    height: 40px;
+    font-size: 26px;
+    border: none;
+    border-radius: 100px;
+}
+
+@media screen and (min-width: 1920px){
+    .searchBarContainer {
+        left: 38%;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .searchBarContainer {
+        left: 36.5%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .searchBarContainer {
+        top: 5%;
+        left: 0%;
+        width: 400px;
+    }
+    .searchBarBin {
+        margin-left:-20px;
+        width: 400px;
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .searchBarContainer {
+        top: 5%;
+        left: 10%;
+        width: 400px;
+    }
+    .searchBarBin {
+        margin-left:-20px;
+        width: 400px;
+        font-size: 26px;
+    }
+}

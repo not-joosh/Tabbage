@@ -1,0 +1,372 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signupbg {
+    z-index: -2;
+}
+
+.signupwrapper * {
+    
+    border-radius: 50px;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.signupwrapper ::placeholder {
+    
+    color: white;
+}
+
+.signupcreatebtn {
+
+    position: fixed;
+    background-color: #484262;
+    width: 120px;
+    height: 50px;
+    font-family: monospace;
+    border: none;
+    border-radius: 19px;
+    top: 85%;
+    left: 37%;
+    opacity: 0.4;
+}
+
+.suWS1, .suWS2, .suWC1, 
+.suWC2, .suWC3 {
+    filter: drop-shadow(0 0 2em #646cffaa);
+    transform: scale(1.1);
+}
+
+.suPS1:hover, .suPS2:hover, .suDS1:hover,
+.suDS2:hover, .suDS3:hover{
+    filter: drop-shadow(0 0 2em #ff2929aa);
+    transform: scale(1.1);
+}
+
+.signupcreatebtn:hover{
+    filter: drop-shadow(0 0 2em #537bffaa);
+    background-color: white;
+    color: #484262;
+    cursor: pointer;
+    opacity: 99999999;
+}
+
+.signupformbox {
+    position: fixed;
+    background-color: white;
+    width: 90%;
+    max-width: 450px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 10px 10px;
+}
+
+.signupnamefield {
+
+    position: fixed;
+    background-color: #484262;
+    color: white;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+}
+
+.signupusernamefield {
+
+    position: fixed;
+    background-color: #484262;
+    color: white;
+    left: 53%;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+}
+
+.signupemailfield {
+
+    position: fixed;
+    background-color: #484262;
+    color: white;
+    top: 25%;
+    left: 5%;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+}
+
+.signuppasswordfield {
+
+    position: fixed;
+    background-color: #484262;
+    color: white;
+    top: 43%;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+}
+
+.signupconfirmfield {
+
+    position: fixed;
+    background-color: #484262;
+    color: white;
+    top: 43%;
+    left: 53%;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+}
+
+.signupoptionsgroup {
+
+    position: fixed;
+    top: 60%;
+}
+
+.suWS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: -8%;
+    left: 40%;
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+}
+
+.suWS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 20%;
+    left: 97%;
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+}
+
+.suWC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: -8%;
+    left: 95%;
+    width: 120px;
+    height: 100px;
+    z-index: 1;
+}
+
+.suWC2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 55%;
+    left: -5.5%;
+    width: 120px;
+    height: 100px;
+    z-index: 1;
+}
+
+.suWC3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 94%;
+    left: 70%;
+    width: 120px;
+    height: 100px;
+    z-index: 1;
+}
+
+.suPS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: -12%;
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    transform: rotate(120deg);
+    z-index: 1;
+}
+
+.suPS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 70%;
+    left: 10%;
+    width: 50px;
+    height: 50px;
+    transform: rotate(120deg);
+    z-index: 1;
+}
+
+.suDS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 5%;
+    left: 17%;
+    width: 80px;
+    height: 90px;
+    z-index: 1;
+    transform: rotate(240deg);  
+}
+
+.suDS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 92%;
+    left: 17%;
+    width: 110px;
+    height: 130px;
+    z-index: 1;
+    transform: rotate(130deg);  
+}
+
+.suDS3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 8%;
+    left: 88%;
+    width: 40px;
+    height: 50px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1920px){
+    .suWS1 {
+        top: -9.5%;
+        width: 140px;
+        height: 140px;
+    }
+    .suWS2 {
+        width: 150px;
+        height: 150px;
+    }
+    .suWC1 {
+        width: 240px;
+        height: 220px;
+    }
+    .suWC2 {
+        left: -8%;
+        width: 240px;
+        height: 220px;
+    }
+    .suWC3 {
+        width: 240px;
+        height: 220px;
+    }
+    .suPS1 {
+        top: -15%;
+        width: 220px;
+        height: 220px;
+    }
+    .suPS2 {
+        width: 100px;
+        height: 100px;
+    }
+    .suDS1 {
+        width: 160px;
+        height: 180px;
+    }
+    .suDS2 {
+        top: 90%;
+        width: 220px;
+        height: 260px;
+    }
+    .suDS3{
+        width: 80px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+    .signupformbox {
+        max-width: 375px;
+        height: 450px;
+    }
+    .signupcreatebtn {
+        left: 34%;
+    }
+    .signupnamefield {
+        left: 5%;
+        width: 150px;
+    }
+    .signupusernamefield {
+    
+        width: 150px;
+    }
+    .signupemailfield {
+        width: 325px;
+    }
+    .signuppasswordfield {
+        left: 5%;
+        width: 150px;
+    }
+    .signupconfirmfield {
+        width: 150px;
+    }
+    .suWS1 {
+        top: -5%;
+    }
+    .suWS2 {
+        left: 92%;
+    }
+    .suWC1 {
+        left: 85%;
+        top: -7%;
+        width: 120px;
+        height: 110px;
+    }
+    .suWC2 {
+        width: 120px;
+        height: 110px;
+        z-index: -2;
+    }
+    .suWC3 {
+        left: 55%;
+        top: 85%;
+        width: 100px;
+        height: 90px;
+    }
+    .suPS2 {
+        top: 80%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .suWS1 {
+        top: -5%;
+    }
+    .suWS2 {
+        left: 92%;
+    }
+    .suWC1 {
+        left: 85%;
+        top: -7%;
+        width: 120px;
+        height: 110px;
+    }
+    .suWC2 {
+        width: 120px;
+        height: 110px;
+        z-index: -2;
+    }
+    .suWC3 {
+        left: 55%;
+        top: 85%;
+        width: 100px;
+        height: 90px;
+    }
+    .suPS2 {
+        top: 80%;
+    }
+}

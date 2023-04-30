@@ -1,0 +1,266 @@
+.MerchantHistoryParcelBG{
+    z-index: -3;
+}
+
+/*REFERENCE HOVERS*/
+.mhpPS1:hover, .mhpPS2:hover, 
+.mhpPS3:hover, .mhpPS4:hover,
+.mhpPS5:hover {
+    filter: drop-shadow(0 0 2em #ff2929aa);
+    transform: scale(1.1);
+}
+
+.mhpWC1, .mhpWC2,
+.mhpWC3, .mhpWS1{
+    filter: drop-shadow(0 0 2em #646cffaa);
+    transform: scale(1.1);
+}
+
+.mhpWC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    left: 85%;
+    width: 110px;
+    height: 100px;
+    z-index: 1;
+}
+.mhpWC2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 65%;
+    left: 25%;
+    width: 110px;
+    height: 100px;
+    z-index: 1;
+}
+.mhpWC3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 75%;
+    left: 75%;
+    width: 110px;
+    height: 100px;
+    z-index: 1;
+}
+.mhpPS1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 10%;
+    left: 20%;
+    width: 110px;
+    height: 110px;
+    z-index: 1;
+    transform: rotate(125deg);
+}
+.mhpPS2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 93%;
+    left: -1%;
+    width: 110px;
+    height: 110px;
+    z-index: 1;
+    transform: rotate(125deg);
+}
+.mhpPS3{
+
+    position: fixed;
+    overflow: hidden;
+    top: 53%;
+    left: 80%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transform: rotate(255deg);
+}
+.mhpPS4{
+
+    position: fixed;
+    overflow: hidden;
+    top: 65%;
+    left: 8%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transform: rotate(255deg);
+}
+.mhpPS5{
+
+    position: fixed;
+    overflow: hidden;
+    top: 88%;
+    left: 92%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transform: rotate(255deg);
+}
+.mhpWS1{
+    position: fixed;
+    overflow: hidden;
+    top: 40%;
+    left: -5%;
+    width: 110px;
+    height: 110px;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 1920px){
+    .mhpWC1 {
+        width: 220px;
+        height: 200px;
+    }
+    .mhpWC2 {
+        width: 220px;
+        height: 200px;
+    }
+    .mhpWC3 {
+        width: 220px;
+        height: 200px;
+    }
+    .mhpPS1 {
+        width: 220px;
+        height: 220px;
+    }
+    .mhpPS2 {
+        top: 89.5%;
+        width: 220px;
+        height: 220px;
+    }
+    .mhpPS3 {
+        width: 100px;
+        height: 100px;
+    }
+    .mhpPS4 {
+        width: 100px;
+        height: 100px;
+    }
+    .mhpPS5 {
+        width: 100px;
+        height: 100px;
+    }
+    .mhpWS1 {
+        left: -7%;
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .mhpWS1 {
+        left: -4.1%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .ParcelHistoryContainer {
+        left: 8%;
+        width: 350px;
+    }
+    .history-entry {
+        margin-top: 60px;
+        margin-bottom: 5px;
+        color: #7b70aa;
+        z-index: 2;
+    }
+    .mhpWC1 {
+        top: 17%;
+        z-index: -2;
+    }
+    .mhpWC2 {
+        z-index: -2;
+    }
+    .mhpWC3 {
+        top: 86%;
+        left: 80%;
+        z-index: -2;
+    }
+    .mhpPS1 {
+        top: -7%;
+        left: 40%;
+        z-index: -2;
+    }
+    .mhpPS2 {
+        top: 88%;
+        left: -9%;
+        z-index: -2;
+    }
+    .mhpPS3 {
+        z-index: -2;
+    }
+    .mhpPS4 {
+        top: 80%;
+        left: 60%;
+        z-index: -2;
+    }
+    .mhpPS5 {
+        top: 60%;
+        left: -5%;
+        z-index: -2;
+    }
+    .mhpWS1 {
+        top: 30%;
+        left: -15%;
+        z-index: -2;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .ParcelHistoryContainer {
+        left: 8%;
+        width: 350px;
+    }
+    .history-entry {
+        margin-top: 60px;
+        margin-bottom: 5px;
+        color: #7b70aa;
+        z-index: 2;
+    }
+    .mhpWC1 {
+        top: 17%;
+        z-index: -2;
+    }
+    .mhpWC2 {
+        z-index: -2;
+    }
+    .mhpWC3 {
+        top: 86%;
+        left: 80%;
+        z-index: -2;
+    }
+    .mhpPS1 {
+        top: -7%;
+        left: 40%;
+        z-index: -2;
+    }
+    .mhpPS2 {
+        top: 88%;
+        left: -9%;
+        z-index: -2;
+    }
+    .mhpPS3 {
+        z-index: -2;
+    }
+    .mhpPS4 {
+        top: 80%;
+        left: 60%;
+        z-index: -2;
+    }
+    .mhpPS5 {
+        top: 60%;
+        left: -5%;
+        z-index: -2;
+    }
+    .mhpWS1 {
+        top: 30%;
+        left: -15%;
+        z-index: -2;
+    }
+}

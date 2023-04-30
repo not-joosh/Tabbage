@@ -1,0 +1,398 @@
+
+.dhBG {
+    z-index: -2;
+}
+.dhFormWrapper {
+    z-index: 1;
+}
+
+.dhWC1, .dhWC2, .dhWS1,
+.dhWS2 {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.dhDS1:hover, .dhDS2:hover,
+.dhPS1:hover, .dhPS2:hover,
+.dhDC1:hover {
+    filter: drop-shadow(0 0 2em #ff2929aa);
+}
+
+.dhButtonContainer :hover{
+
+    cursor: pointer;
+    filter: drop-shadow(0 0 1.3em #5363f7aa);
+    background-color: white;
+    color: #484262;
+}
+
+.dhButtonContainer {
+    
+    position: fixed;
+    border-radius: 50px;
+    background: #484262;
+    width: 130px;
+    height: 50px;
+    top: 56%;
+    left: 45.8%;
+    z-index: -1;
+    padding: 0px;
+    line-height: 300%;
+    text-align: center;
+}
+
+.dhUpdateParcelBtn {
+    
+    will-change: filter;
+    transition: filter 300ms;
+    font-weight: bolder;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    background: #484262;
+    z-index: 2;
+    color: white;
+}
+
+/*DECORATIONS*/
+
+.dhWC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 20%;
+    left: 96.5%;
+    width: 110px;
+    height: 100px;
+}
+
+.dhWC2{
+
+    position: fixed;
+    overflow: hidden;
+    top: 93%;
+    left: 2%;
+    width: 80px;
+    height: 80px;
+}
+
+.dhWS1{
+    position: fixed;
+    overflow: hidden;
+    top: -10%;
+    left: 85%;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    transform: rotate(100deg);
+}
+
+.dhWS2{
+    position: fixed;
+    overflow: hidden;
+    top: 70%;
+    left: 10%;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    transform: rotate(100deg);
+}
+
+.dhDS1{
+    position: fixed;
+    overflow: hidden;
+    top: -9%;
+    left: 95.5%;
+    width: 100px;
+    height: 120px;
+    z-index: -1;
+    transform: rotate(120deg);
+}
+
+.dhDS2{
+    position: fixed;
+    overflow: hidden;
+    top: 6%;
+    left: 80%;
+    width: 80px;
+    height: 100px;
+    z-index: -1;
+}
+
+.dhPS1{
+    position: fixed;
+    overflow: hidden;
+    top: 90%;
+    left: 11%;
+    width: 110px;
+    height: 110px;
+    z-index: -1;
+    transform: rotate(140deg);
+}
+
+.dhPS2{
+    position: fixed;
+    overflow: hidden;
+    top:17% ;
+    left: 90%;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    transform: rotate(55deg);
+}
+
+.dhDC1{
+
+    position: fixed;
+    overflow: hidden;
+    top: 70%;
+    left: -6%;
+    width: 120px;
+    height: 100px;
+}
+
+@media screen and (min-width: 1920px){
+    .dhButtonContainer {
+        top: 52%;
+        left: 46.8%;
+    }
+    .dhWC1 {
+        left: 95.5%;
+        width: 220px;
+        height: 200px;
+    }
+    .dhWC2 {
+        left: 0%;
+        width: 160px;
+        height: 160px;
+    }
+    .dhWS1 {
+        width: 200px;
+        height: 200px;
+    }
+    .dhWS2 {
+        width: 100px;
+        height: 100px;
+    }
+    .dhDS1 {
+        width: 200px;
+        height: 240px;
+    }
+    .dhDS2 {
+        width: 140px;
+        height: 160px;
+    }
+    .dhPS1 {
+        width: 200px;
+        height: 200px;
+    }
+    .dhPS2 {
+        width: 100px;
+        height: 100px;
+    }
+    .dhDC1 {
+        left: -8%;
+        width: 240px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px){
+    .dhButtonContainer {
+        top: 53%;
+    }
+    .dhDC1 {
+        left: -5%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .dhButtonContainer {
+        width: 130px;
+        height: 50px;
+        top: 57%;
+        left: 35%;
+    }
+    .dhFormWrapper {
+        left: 3%;
+    }
+    .dhUpdateParcelBtn {
+        width: 130px;
+        height: 50px;
+    }
+    .dhWC1{
+        top: 20%;
+        left: 85%;
+        width: 100px;
+        height: 90px;
+    }
+    .dhWC2{
+        top: 90%;
+        left: -7%;
+        width: 80px;
+        height: 80px;
+    }
+    .dhWS1{
+        top: -3.5%;
+        left: 68%;
+        width: 65px;
+        height: 65px;
+    }
+    .dhWS2{
+        top: 80%;
+        left: 25%;
+        width: 55px;
+        height: 55px;
+    }
+    .dhDS1{
+        top: 50%;
+        left: 195.5%;
+        width: 100px;
+        height: 120px;
+    }
+    .dhDS2{
+        top: 9%;
+        left: 42%;
+        width: 80px;
+        height: 100px;
+    }
+    .dhPS1{
+        top: 87%;
+        left: 40%;
+        width: 90px;
+        height: 90px;
+    }
+    .dhPS2{
+        top:5% ;
+        left: 70%;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px){
+    .dhButtonContainer {
+        width: 130px;
+        height: 50px;
+        top: 58%;
+        left: 37%;
+    }
+    .dhFormWrapper {
+        left: 3%;
+    }
+    .dhUpdateParcelBtn {
+        width: 130px;
+        height: 50px;
+    }
+    .dhWC1{
+        top: 20%;
+        left: 85%;
+        width: 100px;
+        height: 90px;
+    }
+    .dhWC2{
+        top: 90%;
+        left: -7%;
+        width: 80px;
+        height: 80px;
+    }
+    .dhWS1{
+        top: -3.5%;
+        left: 68%;
+        width: 65px;
+        height: 65px;
+    }
+    .dhWS2{
+        top: 80%;
+        left: 25%;
+        width: 55px;
+        height: 55px;
+    }
+    .dhDS1{
+        top: 50%;
+        left: 195.5%;
+        width: 100px;
+        height: 120px;
+    }
+    .dhDS2{
+        top: 9%;
+        left: 42%;
+        width: 80px;
+        height: 100px;
+    }
+    .dhPS1{
+        top: 87%;
+        left: 40%;
+        width: 90px;
+        height: 90px;
+    }
+    .dhPS2{
+        top:5% ;
+        left: 70%;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 650px){
+    .dhButtonContainer {
+        width: 130px;
+        height: 50px;
+        top: 58%;
+        left: 38%;
+    }
+    .dhFormWrapper {
+        left: 3%;
+    }
+    .dhUpdateParcelBtn {
+        width: 130px;
+        height: 50px;
+    }
+    .dhWC1{
+        top: 20%;
+        left: 85%;
+        width: 100px;
+        height: 90px;
+    }
+    .dhWC2{
+        top: 90%;
+        left: -7%;
+        width: 80px;
+        height: 80px;
+    }
+    .dhWS1{
+        top: -3.5%;
+        left: 68%;
+        width: 65px;
+        height: 65px;
+    }
+    .dhWS2{
+        top: 80%;
+        left: 25%;
+        width: 55px;
+        height: 55px;
+    }
+    .dhDS1{
+        top: 50%;
+        left: 195.5%;
+        width: 100px;
+        height: 120px;
+    }
+    .dhDS2{
+        top: 9%;
+        left: 42%;
+        width: 80px;
+        height: 100px;
+    }
+    .dhPS1{
+        top: 87%;
+        left: 40%;
+        width: 90px;
+        height: 90px;
+    }
+    .dhPS2{
+        top:5% ;
+        left: 70%;
+        width: 100px;
+        height: 100px;
+    }
+}
