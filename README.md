@@ -30,8 +30,3 @@
     npm install firebase
     npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
     npm install react-hook-form
-
-# Possible Demo Shop and Checkout - Might Remove...
-<img width="911" alt="image" src="https://user-images.githubusercontent.com/105687297/217552809-6aa7d5a2-a8bd-44eb-81c7-4dc7201d264c.png">
-
-<img width="905" alt="image" src="https://user-images.githubusercontent.com/105687297/217553159-c02b252e-497c-4eb4-b323-d40e96901622.png">
