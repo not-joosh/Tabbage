@@ -32,3 +32,5 @@
     npm install firebase
     npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
     npm install react-hook-form
+
+This project is licensed under the [MIT License](LICENSE).
